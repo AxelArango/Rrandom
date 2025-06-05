@@ -2,7 +2,7 @@
 #' 
 #' This function provides the first or the first two paragraphs of a random wikipedia page.
 #' @return Two paragraphs of a random wikipedia page
-#' @example example.R
+#' @example R/example.R
 #' @export
 random_fact<-function(){
   url <- "https://en.wikipedia.org/wiki/Special:Random" 
@@ -27,3 +27,5 @@ random_fact<-function(){
     cat("No paragraphs found on the page.\n")
   }
 }
+
+

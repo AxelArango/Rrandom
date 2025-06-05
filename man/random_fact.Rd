@@ -12,3 +12,7 @@ Two paragraphs of a random wikipedia page
 \description{
 This function provides the first or the first two paragraphs of a random wikipedia page.
 }
+\examples{
+source(file = "R/random_fact.R")
+random_fact()
+}
