@@ -27,4 +27,3 @@ random_fact<-function(){
     cat("No paragraphs found on the page.\n")
   }
 }
-#
