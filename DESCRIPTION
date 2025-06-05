@@ -1,0 +1,16 @@
+Package: Rrandom
+Title: A package for random facts
+Version: 0.0.0.9000
+Authors@R: 
+    person("Axel", "Arango", , "axlarango@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package retrieves facts from random pages in wikipedia.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+	rvest (>= 1.0.4),
+	xml2 (>= 1.3.8),
+	dplyr
